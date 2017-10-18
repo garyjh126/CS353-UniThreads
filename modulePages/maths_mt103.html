@@ -1,27 +1,76 @@
 <!DOCTYPE html>
+<!-- Uploaded by Cloe on Friday 13th October @ 12:40pm -->
 <html>
 <head>
+<title>UNI-Threads</title>
+<link rel="stylesheet" href="../css/designer.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<p>log out	view profile</p>
-<h1>Maths / MT103 Calculus 1</h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>	
+	input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 20px 2px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	margin-bottom: 5px;
+	color: black;
+}
+	input[type=text]:focus {
+		width: 40%;
+	}
+</style>
 
 </head>
-<body>
-
-<form>
-  <input type="text" name="search" placeholder="Search Topic Name..">
-</form>
-<p>add new topic</p>
-
-<h2>Topics</h2>
+<body style="background-color: #f0f5d8">
 
 
-<ul>
-  <li>Topic 1</li>
-  <li>Topic 2</li>
-  <li>Topic 3</li>
-</ul>  
- 
- 
+<div id="title-card" style="margin-top: -2%">
+	
+	<div>
+	<!-- <p>log out  view profile</p>-->
+			<h1>MT103 Calculus 1</h1>
+			<form>
+				<i class="icon-search"></i>
+				<input type="text" name="search" placeholder="Search Module Code.."> <!-- Module search bar -->
+				
+				<a>Sign out</a>
+				<a><span class="glyphicon glyphicon-user"></span>My Profile</a>
+				
+			</form>
+          
+	</div>
+</div>
+
+<div id="content">
+	
+	<p>Maths -> MT103</p>
+	<h2>Topics</h2><!-- Title to show what page you are on -->
+	
+	<div id="mod">
+		<a>Topic 1</a>
+		
+	</div>
+	<br>
+	<div id="mod">
+		<a>Topic 2</a>
+	</div>
+	<br>
+	<div id="mod">
+		<a>Topic 3</a>
+	</div>
+	
+</div>
 </body>
 </html>
