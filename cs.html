@@ -2,30 +2,75 @@
 <!-- Uploaded by Cloe on Friday 13th October @ 12:40pm -->
 <html>
 <head>
+<title>UNI-Threads</title>
+<link rel="stylesheet" href="css/designer.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
-<p>log out	view profile</p>
-<h1>Computer Science</h1>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+<style>	
+	input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url("http://kodyrabatowe.wp.pl/img/ico/search_gr.png");
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 2px 20px 2px 20px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+	margin-bottom: 5px;
+	color: black;
+}
+	input[type=text]:focus {
+		width: 40%;
+	}
+</style>
 </head>
-<body>
 
-   <div id = "container">
-    <div id = "searchbar">
 
-<form>
-  <input type="text" name="search" placeholder="Search Module Code.."><!-- Module search bar -->
-</form>
-    </div>
-    <div id = "modules">
+<body style="background-color: #f0f5d8">
 
-<h2>Modules</h2><!-- Title to show what page you are on -->
 
-<ul>
-  <li>CS210 Data Structures and Algorithms I</li>
-  <li>CS320 Computer Networks</li>
-  <li>CS375 Software Verification</li>
-</ul>  
-     </div>
-     </div>
+<div id="title-card" style="margin-top: -2%">
+	
+	<div>
+	<!-- <p>log out  view profile</p>-->
+			<h1>Computer Science</h1>
+			<form>
+				<i class="icon-search"></i>
+				<input type="text" name="search" placeholder="Search Module Code.."> <!-- Module search bar -->
+				<a>Sign out</a>
+				<a><span class="glyphicon glyphicon-user"></span>My Profile</a>
+				
+			</form>
+          
+	</div>
+</div>
+
+<div id="content">
+	
+	
+	<h2>Modules</h2><!-- Title to show what page you are on -->
+	
+	<div id="mod">
+		<a>CS210: Data Structures & Algorithms</a>
+		
+	</div>
+	<br>
+	<div id="mod">
+		<a>CS330: Computer Networks</a>
+	</div>
+	<br>
+	<div id="mod">
+		<a>CS375: Software Verification</a>
+	</div>
+	
+</div>
 </body>
 </html>
