@@ -1,0 +1,59 @@
+#title-card{
+	background-color: #336699;
+	padding-bottom: 10px;
+	padding-top: 3%;
+	color: black;
+	padding-left: 2%;
+	margin-top: -2%;
+	padding-right: 2%;
+}
+
+#title-card h1{
+	font-weight: bold;
+	text-align: center;
+	font-size: 250%;
+	color:#F0662B;
+}
+#content {
+	padding-right: 2%;
+	padding-left: 2%;
+	
+}
+
+#mod{
+	
+	background-color:white;
+	border: 1px solid black;
+	/*border-bottom: 5px;*/
+	padding: 20px, 20px, 20px, 30px;
+	
+	font-weight: bold;
+}
+
+#mod a{
+	border: 5px, 10px, 5px, 20px;
+	margin-bottom: 5px;
+	padding-left: 4%;
+	
+	
+	font-size: 190%;
+	cursor:pointer;
+}
+
+#title-card span{
+	color:white;
+	align: right;
+}
+#title-card a{
+	font-size: 150%;
+	padding-left: 30px;
+	padding-bottom: 5px;
+	color: white;
+	float: right;
+	cursor:pointer;
+}
+
+p{
+	
+}
+
