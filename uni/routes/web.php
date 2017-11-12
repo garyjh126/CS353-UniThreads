@@ -18,17 +18,28 @@ Route::get('/register', 'PagesController@register');
 Route::get('/subjects', 'PagesController@subjects');
 Route::get('/profile', 'PagesController@profile');
 
-Route::get('/english', 'ModsController@english');
-Route::get('/maths', 'ModsController@maths');
-Route::get('/computerscience', 'ModsController@computerscience');
+Route::get('/english', 'PagesController@english');
+Route::get('/maths', 'PagesController@maths');
+Route::get('/computerscience', 'PagesController@computerscience');
+
+Route::get('/cs210', 'PostsController@cs210');
+Route::get('/cs320', 'PostsController@cs320');
+Route::get('/cs357', 'PostsController@cs357');
+
+Route::get('/en101', 'PostsController@en101');
+Route::get('/en203', 'PostsController@en203');
+Route::get('/en260', 'PostsController@en260');
+
+Route::get('/mt103', 'PostsController@mt103');
+Route::get('/mt201', 'PostsController@mt201');
+Route::get('/mt212', 'PostsController@mt212');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::resource('mods','ModsController');
+Route::resource('posts','PostsController');
 
-Route::resource('topics','TopicsController');
 
-Route::get('/display', 'TopicsController@display');
+

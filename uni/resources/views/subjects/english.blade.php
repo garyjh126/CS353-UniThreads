@@ -21,18 +21,21 @@
 	
 	<h2>Modules</h2><!-- Title to show what page you are on -->
 	
-
+	<div id="mod">
+		<a href="/en101">EN101: Foundation English</a>
+		
+	</div>
+	<br>
+	<div id="mod">
+		<a href=/en203>EN203: Literary Forms</a>
+	</div>
+	<br>
+	<div id="mod">
+		<a href=/en260>EN260: Classic Literature</a>
+	</div>
 		
 
-	@if(count($mods)>1)
-	@foreach($mods as $mod)
 
-	<a href="/mods/{{$mod->id}}">{{$mod->title}}</a> 
-	<hr>
-	@endforeach
-@else
-	<p>no mods</p>
-@endif
 
 </div>
 </body>

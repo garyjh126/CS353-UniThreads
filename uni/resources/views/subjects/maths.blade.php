@@ -18,17 +18,20 @@
 	
 	<h2>Modules</h2><!-- Title to show what page you are on -->
 	
+<div id="mod">
+		<a href=/mt103>MT103: Calculus 1</a>
+		
+	</div>
+	<br>
+	<div id="mod">
+		<a href=/mt201>MT201: Calculus 3</a>
+	</div>
+	<br>
+	<div id="mod">
+		<a href=/mt212>MT212 Linear Algebra 2</a>
+</div>
 
 
-@if(count($mods)>1)
-	@foreach($mods as $mod)
-
-	<a href="/mods/{{$mod->id}}">{{$mod->title}}</a> 
-	<hr>
-	@endforeach
-@else
-	<p>no mods</p>
-@endif
 
 
 </div>
